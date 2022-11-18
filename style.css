@@ -1,0 +1,9 @@
+body {
+    background-color: #003140;
+    color: white;
+}
+
+#foto-perfil {
+    width: 200px;
+    border-radius: 50%;
+}
