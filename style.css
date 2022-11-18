@@ -1,9 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #003140;
     color: white;
 }
 
-#foto-perfil {
+#header {
+    height: 60vh;
+}
+
+#gif {
+    position: absolute;
+    width: 50%;
+}
+
+#apresentacao {
+    position: relative;
+    left: 60%;
+    top: 20%;
+}
+
+#nome {
+    color: #00B2DF;
+}
+
+#fotoPerfil {
+    position: relative;
     width: 200px;
     border-radius: 50%;
+    left: 50%;
 }
