@@ -6,6 +6,7 @@
 body {
     background-color: #003140;
     color: white;
+    font-family: 'Poppins', sans-serif;;
 }
 
 /* cabeçalho */
@@ -17,12 +18,13 @@ body {
 #gif {
     position: absolute;
     width: 48%;
+    z-index: 1;
 }
 
 #apresentacao {
     position: relative;
     left: 60%;
-    top: 20%;
+    top: 25%;
 }
 
 #nome {
@@ -36,12 +38,12 @@ body {
     margin: 0 auto 15px auto;
     width: 200px;
     border-radius: 50%;
+    z-index: 2;
 }
 
 #sobreMim {
     display: flex;
     flex-direction: column;
-    margin-top: 12vh;
     text-align: center;
 }
 
@@ -84,4 +86,33 @@ body {
     background-color: #00b2df3b;
     padding: 20px;
     border-radius: 10%;
+}
+
+#contatos {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contatos ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+#contatos li {
+    background-color: #00b2df3b;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+#contatos a{
+    text-decoration: none;
+    color: white;
+}
+
+#assinatura {
+    text-align: center;
+    margin: 20px auto 0 auto;
 }
