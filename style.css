@@ -27,6 +27,13 @@ body {
     color: #00B2DF;
 }
 
+#fotoPerfil {
+    display: flex;
+    margin: 0 auto 15px auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
 #sobreMim {
     display: flex;
     flex-direction: column;
@@ -34,9 +41,20 @@ body {
     text-align: center;
 }
 
-#fotoPerfil {
+#projetos {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#projetos ul {
+    margin-top: 20px;
     display: flex;
-    margin: 0 auto 15px auto;
-    width: 200px;
-    border-radius: 50%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#projetos ul li {
+    background-color: #00b2df3b;
+    padding: 100px;
+    border-radius: 10%;
 }
