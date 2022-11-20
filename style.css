@@ -8,6 +8,8 @@ body {
     color: white;
 }
 
+/* cabeçalho */
+
 #header {
     height: 60vh;
 }
@@ -27,6 +29,8 @@ body {
     color: #00B2DF;
 }
 
+/* Sobre mim */
+
 #fotoPerfil {
     display: flex;
     margin: 0 auto 15px auto;
@@ -40,6 +44,8 @@ body {
     margin-top: 12vh;
     text-align: center;
 }
+
+/* Projetos */
 
 #projetos {
     text-align: center;
@@ -56,5 +62,26 @@ body {
 #projetos ul li {
     background-color: #00b2df3b;
     padding: 100px;
+    border-radius: 10%;
+}
+
+/* Habilidades */
+
+#habilidades {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#habilidades ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+
+#habilidades ul li {
+    background-color: #00b2df3b;
+    padding: 20px;
     border-radius: 10%;
 }
